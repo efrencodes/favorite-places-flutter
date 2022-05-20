@@ -10,7 +10,21 @@ class ReviewList extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Review(imagePath, 'Varuna Yasas', '1 review 5 photos',
-            'There is an amazing place in Sri Lanka')
+            'There is an amazing place in Sri Lanka'),
+        Review(imagePath, 'Varuna Yasas', '1 review 5 photos',
+            'There is an amazing place in Sri Lanka'),
+        Review(imagePath, 'Varuna Yasas', '1 review 5 photos',
+            'There is an amazing place in Sri Lanka'),
+        Review(imagePath, 'Varuna Yasas', '1 review 5 photos',
+            'There is an amazing place in Sri Lanka'),
+        Review(imagePath, 'Varuna Yasas', '1 review 5 photos',
+            'There is an amazing place in Sri Lanka'),
+        Review(imagePath, 'Varuna Yasas', '1 review 5 photos',
+            'There is an amazing place in Sri Lanka'),
+        Review(imagePath, 'Varuna Yasas', '1 review 5 photos',
+            'There is an amazing place in Sri Lanka'),
+        Review(imagePath, 'Varuna Yasas', '1 review 5 photos',
+            'There is an amazing place in Sri Lanka'),
       ],
     );
   }

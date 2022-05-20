@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'description_place.dart';
 import 'review_list.dart';
+import 'gradient_background.dart';
 
 void main() => runApp(const MyApp());
 
@@ -14,16 +15,19 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(primarySwatch: Colors.red, fontFamily: 'Lato'),
+      theme: ThemeData(fontFamily: 'Lato'),
       home: Scaffold(
-          appBar: AppBar(title: const Text('Hola mundo Feliz')),
-          body: Column(
+          body: Stack(
+        children: [
+          ListView(
             children: [
               DescriptionPlace('Bahamas', 2, descriptionDummy),
               ReviewList()
             ],
-          )),
+          ),
+          GradientBackground()
+        ],
+      )),
     );
   }
 }
