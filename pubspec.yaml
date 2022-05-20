@@ -91,3 +91,9 @@ flutter:
         - asset: fonts/Lato-Regular.ttf
   assets:
     - assets/people.jpg
+    - assets/beach_palm.jpeg
+    - assets/beach.jpeg
+    - assets/mountain_stars.jpeg
+    - assets/mountain.jpeg
+    - assets/river.jpeg
+    - assets/sunset.jpeg
