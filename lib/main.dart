@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'description_place.dart';
+import 'review_list.dart';
 
 void main() => runApp(const MyApp());
 
@@ -17,7 +18,12 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(primarySwatch: Colors.red, fontFamily: 'Lato'),
       home: Scaffold(
           appBar: AppBar(title: const Text('Hola mundo Feliz')),
-          body: DescriptionPlace('Bahamas', 2, descriptionDummy)),
+          body: Column(
+            children: [
+              DescriptionPlace('Bahamas', 2, descriptionDummy),
+              ReviewList()
+            ],
+          )),
     );
   }
 }
