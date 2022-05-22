@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'button.dart';
 
 class DescriptionPlace extends StatelessWidget {
   String namePlace;
@@ -42,7 +43,8 @@ class DescriptionPlace extends StatelessWidget {
                 color: Color(0xFF56575a))));
 
     final description_place = Column(
-      children: [title_stars, description, description],
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [title_stars, description, description, Button()],
     );
 
     return description_place;
