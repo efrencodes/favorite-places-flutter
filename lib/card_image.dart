@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-String imagePath = 'assets/beach.jpeg';
-
 class CardImage extends StatelessWidget {
+  String imagePath;
+  CardImage(this.imagePath);
   @override
   Widget build(BuildContext context) {
     final card = Container(
